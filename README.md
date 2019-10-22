@@ -20,3 +20,8 @@ test_ppm_out.exe > test_ppm_out.ppm
 ```bash
 gdb test_ppm_out.exe
 ```
+
+Add a breakpoint
+```bash
+(gdb) b file:line_number
+```
